@@ -20,21 +20,11 @@ class Environment{
         }else if(this.envirnment == Environments.Test) {
             return 8083;
         }else{
-            return 3000;
+            return 8000;
         }
     }
 
-    getDBName () : String {
-        if(this.envirnment == Environments.Production) {
-            return 'florence_store';
-        }else if(this.envirnment == Environments.Development) {
-            return 'florence_store_dev';
-        }else if(this.envirnment == Environments.Test) {
-            return 'florence_store_test';
-        }else{
-            return 'florence_store_local';
-        }
-    }
+    //set database environment
 
 }
 
