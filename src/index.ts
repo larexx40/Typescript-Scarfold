@@ -1,5 +1,6 @@
 import app from "./Config/app";
 import { db } from "./Config/db.config";
+import userRouter from "./Routes/users";
 import environment from "./environment";
 
 
